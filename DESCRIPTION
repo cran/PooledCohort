@@ -1,0 +1,36 @@
+Package: PooledCohort
+Title: Predict 10-Year Risk for Atherosclerotic Cardiovascular Disease
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Byron",
+             family = "Jaeger",
+             role = c("aut", "cre"),
+             email = "bcjaeger@uab.edu",
+             comment = c(ORCID = "0000-0001-7399-2299")))
+Description: The 2017 American College of Cardiology and American Heart
+  Association blood pressure guideline recommends using 10-year predicted 
+  atherosclerotic cardiovascular disease risk to guide the decision to 
+  initiate or intensify antihypertensive medication. The guideline recommends 
+  using the Pooled Cohort risk prediction equations to predict 10-year 
+  atherosclerotic cardiovascular disease risk. This package implements the 
+  original Pooled Cohort risk prediction equations and also incorporates 
+  updated versions based on more contemporary data and statistical methods.
+  References:
+  Goff DC, Lloyd-Jones DM, Bennett G, Coady S, D’Agostino RB, Gibbons R, 
+  Greenland P, Lackland DT, Levy D, O’Donnell CJ, and Robinson JG (2014) 
+  <doi:10.1016/j.jacc.2014.03.006>
+  Yadlowsky S, Hayward RA, Sussman JB, McClelland RL, Min YI, and Basu S (2018)
+  <doi:10.7326/m17-3011>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+Suggests: testthat, covr, dplyr
+URL: https://github.com/bcjaeger/PooledCohort
+BugReports: https://github.com/bcjaeger/PooledCohort/issues
+Imports: glue, stats
+NeedsCompilation: no
+Packaged: 2021-04-15 19:57:29 UTC; bcjaeger
+Author: Byron Jaeger [aut, cre] (<https://orcid.org/0000-0001-7399-2299>)
+Maintainer: Byron Jaeger <bcjaeger@uab.edu>
+Repository: CRAN
+Date/Publication: 2021-04-19 07:50:09 UTC

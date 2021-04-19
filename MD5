@@ -1,0 +1,10 @@
+e2162d5ddab2093a2d707122ccf3ec7b *DESCRIPTION
+472fde0466003430464fed29bf922087 *LICENSE
+68b411ead0977952030789626e0fb1cd *NAMESPACE
+945aa23ef566fe625be08581413a20de *R/check_args.R
+9626f546e1566f1becc291058672298b *R/predict_ascvd_risk.R
+8f7973b9261e18ad61f81c4484aa1679 *README.md
+cacca5c1b06d85d90f91180dd8e4ee84 *man/predict_10yr_ascvd_risk.Rd
+37c1b83fdb9df90993cf132028ec3f1d *tests/testthat.R
+54d4b3e07c1aa5f5ebaffc1a955237d2 *tests/testthat/test-check_args.R
+9c7b7c32a9c697bb6765d158aa97f898 *tests/testthat/test-predict_ascvd_risk.R
